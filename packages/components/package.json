@@ -1,12 +1,25 @@
 {
-  "name": "@uimakers/react-native-components",
+  "name": "components",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-web": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "@babel/preset-env": "^7.19.1"
+  }
 }

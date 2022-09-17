@@ -1,14 +1,12 @@
 import { View, Text } from "react-native";
 import React from "react";
-import  Button from "components";
 
-const App = () => {
+const Button = () => {
   return (
     <View>
-      <Text>App</Text>
-      <Button />
+      <Text>index</Text>
     </View>
   );
 };
 
-export default App;
+export default Button;
